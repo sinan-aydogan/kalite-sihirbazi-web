@@ -2,7 +2,8 @@
 export default defineNuxtConfig({
     devtools: {enabled: true},
     modules: [
-        '@pinia/nuxt',
-        "nuxt-icon"
+      '@pinia/nuxt',
+      "nuxt-icon",
+      "@pinia-plugin-persistedstate/nuxt"
     ]
 })
