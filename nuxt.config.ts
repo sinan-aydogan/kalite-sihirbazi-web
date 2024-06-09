@@ -4,6 +4,7 @@ export default defineNuxtConfig({
     modules: [
       '@pinia/nuxt',
       "nuxt-icon",
-      "@pinia-plugin-persistedstate/nuxt"
+      "@pinia-plugin-persistedstate/nuxt",
+      "radix-vue"
     ]
 })
